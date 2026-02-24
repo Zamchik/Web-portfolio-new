@@ -4,7 +4,7 @@ import Introduction from './components/Introduction/Introduction';
 
 function App() {
     return (
-        <div>
+        <div className='wrapper'>
             <Header />
             <main>
                 <Introduction />
