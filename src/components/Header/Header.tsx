@@ -5,12 +5,12 @@ const Header = () => {
         <header className={styles.header}>
             <div className={styles.custom_container}>
                 <h3 className={styles.nickname}>Zamchik.dev</h3>
-                <nav className={styles.nav}>
-                    <ul>
-                        <li>Главная</li>
-                        <li>Об о мне</li>
-                        <li>Проекты</li>
-                        <li>Контакты</li>
+                <nav className={styles.menu}>
+                    <ul className={styles.nav}>
+                        <li className={styles.menu_link}>Главная</li>
+                        <li className={styles.menu_link}>Об о мне</li>
+                        <li className={styles.menu_link}>Проекты</li>
+                        <li className={styles.menu_link}>Контакты</li>
                     </ul>
                 </nav>
             </div>
