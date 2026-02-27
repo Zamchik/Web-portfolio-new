@@ -2,8 +2,8 @@ import styles from './styles.module.scss';
 
 const Introduction = () => {
     return (
-            <section className={styles.introduction}>
-                <div className={styles.greetContainer_header}>
+            <section className={styles.page_top}>
+                <div className={styles.custom_wrapper}>
                     <h1 className={styles.greetContainer}>
                         <span className={styles.greetContainer_name}>Константин</span>
                         <span className={styles.greetContainer_name}>Замякин</span>

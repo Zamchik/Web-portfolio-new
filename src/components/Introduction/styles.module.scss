@@ -1,17 +1,35 @@
-.introduction {
-  flex: 0 0 auto;
-  height: 50%;
-  overflow: hidden;
-}
-
-.introduction {
+.page_top {
   display: block;
-  justify-content: flex-start;
-  margin: 0;
-  padding: 0;
+  padding-top: 90px;
+  padding-bottom: 80px;
 }
 
-.introduction {
-  border-bottom: 0.2rem solid #000;
-  margin: 100px 50px 0 50px;
+@media (min-width: 767.98px) {
+  .custom_container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 575.98px) {
+  .custom_container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 480px) {
+  .custom_container {
+    max-width: 450px;
+  }
+}
+
+@media (min-width: 320px) {
+  .custom_container {
+    max-width: 300px;
+  }
+}
+
+.custom_wrapper {
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
 }
