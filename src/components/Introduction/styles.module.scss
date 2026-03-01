@@ -33,3 +33,35 @@
   margin-left: auto;
   width: 100%;
 }
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.i_am {
+  position: relative;
+  transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)
+    rotateY(0deg) rotateZ(5deg) skew(0deg, 0deg);
+  transform-style: preserve-3d;
+  opacity: 1;
+  max-width: 20%;
+  border-radius: 60px;
+  box-shadow: 0 44px 84px 0 rgba(0, 0, 0, 0.4);
+  z-index: 2;
+}
+
+.i_am_shadow {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  right: 0%;
+  bottom: 0px;
+  width: 20%;
+  height: 100%;
+  border-radius: 60px;
+  background: #d2d0f5;
+  background: radial-gradient(circle, #d2d0f5 0%, #72a8e9 100%);
+  transform: rotate(-5deg);
+  box-shadow: 0 44px 84px 0 rgba(0, 0, 0, 0.4);
+}
