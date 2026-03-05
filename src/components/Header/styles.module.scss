@@ -5,6 +5,7 @@
   top: 0;
   left: 0;
   width: 100%;
+  border-bottom: 0.2rem solid rgb(0, 0, 0);
 }
 
 [class*=_container] {
@@ -13,7 +14,7 @@
     padding: 0 40px;
 }
 
-.custom_container {
+.header_container {
   min-height: 90px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -27,6 +28,30 @@
   -webkit-column-gap: 50px;
   -moz-column-gap: 50px;
   column-gap: 50px;
+}
+
+@media (min-width: 767.98px) {
+  .custom_container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 575.98px) {
+  .custom_container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 480px) {
+  .custom_container {
+    max-width: 450px;
+  }
+}
+
+@media (min-width: 320px) {
+  .custom_container {
+    max-width: 300px;
+  }
 }
 
 .nickname {

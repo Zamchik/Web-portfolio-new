@@ -3,7 +3,7 @@ import styles from './styles.module.scss';
 const Header = () => {
     return (
         <header className={styles.header}>
-            <div className={styles.custom_container}>
+            <div className={styles.header_container}>
                 <h3 className={styles.nickname}>Zamchik.dev</h3>
                 <nav className={styles.menu}>
                     <ul className={styles.nav}>
