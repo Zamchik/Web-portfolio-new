@@ -4,22 +4,19 @@ import image from '../../assets/I_am.jpg';
 const Introduction = () => {
     return (
         <section className={styles.page_top}>
-            <div className={styles.custom_container}>
-                <div className={styles.custom_wrapper}>
-                    <div className={styles.row}>
-                        <div>
-                            <img src={image} alt="I_am" className={styles.i_am} />
-                            <div className={styles.i_am_shadow}></div>
-                        </div>
-
-                        <span className={styles.greetContainer_name}>Константин</span>
-                        <span className={styles.greetContainer_name}>Замякин</span>
-                    </div>
+            <div className={styles.top_wrap}>
+                <picture className={styles.i_am}>
+                    <img src={image} alt="I_am" className={styles.i_am_photo} />
+                    <div className={styles.i_am_shadow}></div>
+                </picture>
+                <div className={styles.top_text}>
+                    <h1 className={styles.my_name}>
+                        <span>Konstantin Zamyakin</span>
+                    </h1>
+                    <h2>
+                        <span>Frontend Developer</span>
+                    </h2>
                 </div>
-            </div>
-
-            <div>
-                <h2>Frontend Developer</h2>
             </div>
         </section>
     )
