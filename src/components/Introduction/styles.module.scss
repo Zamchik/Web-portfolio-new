@@ -103,9 +103,11 @@
 }
 
 .my_name {
+  display: flex;
+  flex-direction: column;
   font-size: 56px;
   font-weight: 700;
   line-height: normal;
-  margin: 0 0 32px 0;
+  margin: 0 0 40px 0;
   border-bottom: 0.2rem solid rgb(0, 0, 0);
 }
