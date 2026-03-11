@@ -67,8 +67,7 @@
   position: relative;
   width: 300px;
   height: 400px;
-  transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)
-    rotateY(0deg) rotateZ(5deg) skew(0deg, 0deg);
+  transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(5deg) skew(0deg, 0deg);
   transform-style: preserve-3d;
   opacity: 1;
   box-shadow: rgba(0, 0, 0, 0.4) 0px 44px 84px 0px;
@@ -87,11 +86,7 @@
   transform: rotate(-5deg);
   box-shadow: rgba(0, 0, 0, 0.4) 0px 44px 84px 0px;
   border-radius: 60px;
-  background: radial-gradient(
-    circle,
-    rgb(210, 208, 245) 0%,
-    rgb(114, 168, 233) 100%
-  );
+  background: radial-gradient(circle, rgb(210, 208, 245) 0%, rgb(114, 168, 233) 100%);
 }
 
 .top_text {
@@ -103,11 +98,29 @@
 }
 
 .my_name {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  flex-direction: column; 
+  // Есть ли префиксы?
+  width: 40%;
+  height: 40%;
   font-size: 56px;
   font-weight: 700;
   line-height: normal;
-  margin: 0 0 40px 0;
+  margin: 0 ;
   border-bottom: 0.2rem solid rgb(0, 0, 0);
+}
+
+.my_name_title {
+  // position: absolute;
+    animation: titleBottom 1s;
+    animation-delay: 1.75s;
+    animation-fill-mode: forwards;
+    height: 2.1rem;
+    left: 0%;
+    z-index: -1;
+    bottom: 1rem;
+    // content: '';
+    background-color: #b2cce9;
 }

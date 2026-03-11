@@ -11,8 +11,8 @@ const Introduction = () => {
                 </picture>
                 <div className={styles.top_text}>
                     <h1 className={styles.my_name}>
-                        <span>Konstantin</span>
-                        <span>Zamyakin</span>
+                        <span className={styles.my_name_title}>Konstantin</span>
+                        <span className={styles.my_name_title}>Zamyakin</span>
                     </h1>
                     <h2>
                         <span>Frontend Developer</span>
