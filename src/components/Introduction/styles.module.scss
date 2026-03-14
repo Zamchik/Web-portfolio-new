@@ -41,6 +41,7 @@
   -webkit-box-flex: 0;
   -ms-flex: 0 1 750px;
   flex: 0 1 750px;
+  padding: 0 20px;
 }
 
 // @media (max-width: 767.98px) {
@@ -92,8 +93,10 @@
 .top_text {
   -webkit-box-flex: 0;
   -ms-flex: 0 0 738px;
-  flex: 0 0 738px;
+  flex: 0 1 55%;
   position: relative;
+  height: 25rem;
+  padding: 0 20px;
   z-index: 3;
 }
 
@@ -103,24 +106,23 @@
   display: flex;
   flex-direction: column; 
   // Есть ли префиксы?
-  width: 40%;
-  height: 40%;
+  width: 100%;
+  height: auto ;
   font-size: 56px;
   font-weight: 700;
   line-height: normal;
-  margin: 0 ;
   border-bottom: 0.2rem solid rgb(0, 0, 0);
 }
 
 .my_name_title {
   // position: absolute;
-    animation: titleBottom 1s;
-    animation-delay: 1.75s;
-    animation-fill-mode: forwards;
-    height: 2.1rem;
-    left: 0%;
-    z-index: -1;
-    bottom: 1rem;
-    // content: '';
-    background-color: #b2cce9;
+    // animation: titleBottom 1s;
+    // animation-delay: 1.75s;
+    // animation-fill-mode: forwards;
+    // height: 2.1rem;
+    // left: 0%;
+    // z-index: -1;
+    // bottom: 1rem;
+    // // content: '';
+    // background-color: #b2cce9;
 }
