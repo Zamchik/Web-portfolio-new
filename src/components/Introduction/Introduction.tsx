@@ -10,11 +10,13 @@ const Introduction = () => {
                         <img src={image} alt="I_am" className={styles.i_am_photo} />
                         <div className={styles.i_am_shadow}></div>
                     </picture>
-                    <div className={styles.top_text}>
-                        <h1 className={styles.my_name}>
-                            <span className={styles.my_name_title}>Konstantin</span>
-                            <span className={styles.my_name_title}>Zamyakin</span>
-                        </h1>
+                    <div className={styles.introduction_text}>
+                        <div className={styles.introduction_text_top}>
+                            <h1 className={styles.name}>
+                                <span className={styles.name_first}>Konstantin</span>
+                                <span className={styles.name_last}>Zamyakin</span>
+                            </h1>
+                        </div>
                         <h2>
                             <span>Frontend Developer</span>
                         </h2>
