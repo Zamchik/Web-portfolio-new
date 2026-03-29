@@ -68,8 +68,7 @@
   position: relative;
   width: 300px;
   height: 400px;
-  transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)
-    rotateY(0deg) rotateZ(5deg) skew(0deg, 0deg);
+  transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(5deg) skew(0deg, 0deg);
   transform-style: preserve-3d;
   opacity: 1;
   box-shadow: rgba(0, 0, 0, 0.4) 0px 44px 84px 0px;
@@ -88,14 +87,10 @@
   transform: rotate(-5deg);
   box-shadow: rgba(0, 0, 0, 0.4) 0px 44px 84px 0px;
   border-radius: 60px;
-  background: radial-gradient(
-    circle,
-    rgb(210, 208, 245) 0%,
-    rgb(114, 168, 233) 100%
-  );
+  background: radial-gradient(circle, rgb(210, 208, 245) 0%, rgb(114, 168, 233) 100%);
 }
 
-.top_text {
+.introduction_text {
   -webkit-box-flex: 0;
   -ms-flex: 1 1 auto;
   flex: 1 1 auto;
@@ -103,7 +98,22 @@
   padding: 0 20px;
 }
 
-.my_name {
+.introduction_text_top {
+  border-bottom: 0.2rem solid #000;
+  top: 0;
+}
+
+// .introduction_text_bottom {
+//   -webkit-box-flex: 0;
+//   -ms-flex: 1 1 auto;
+//   flex: 1 1 auto;
+//   position: relative;
+//   height: 25rem;
+//   padding: 0 20px;
+//   z-index: 3;
+// }
+
+.name {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -115,7 +125,6 @@
   font-size: 56px;
   font-weight: 700;
   line-height: normal;
-  border-bottom: 0.2rem solid rgb(0, 0, 0);
 }
 
 .my_name_top {
