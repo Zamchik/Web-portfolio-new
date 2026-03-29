@@ -4,49 +4,6 @@
   padding-bottom: 80px;
 }
 
-@media (min-width: 1199.98px) {
-  .custom_container {
-    max-width: 1140px;
-  }
-}
-
-@media (min-width: 991.98px) {
-  .custom_container {
-    max-width: 960px;
-  }
-}
-
-@media (min-width: 767.98px) {
-  .custom_container {
-    max-width: 720px;
-  }
-}
-
-@media (min-width: 575.98px) {
-  .custom_container {
-    max-width: 540px;
-  }
-}
-
-@media (min-width: 480px) {
-  .custom_container {
-    max-width: 450px;
-  }
-}
-
-@media (min-width: 320px) {
-  .custom_container {
-    max-width: 300px;
-  }
-}
-
-.custom_container {
-  margin-right: auto;
-  margin-left: auto;
-  width: 100%;
-  padding: 0;
-}
-
 .top_wrap {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -143,9 +100,7 @@
   -ms-flex: 1 1 auto;
   flex: 1 1 auto;
   position: relative;
-  height: 25rem;
   padding: 0 20px;
-  z-index: 3;
 }
 
 .my_name {
@@ -155,22 +110,83 @@
   flex-direction: column;
   // Есть ли префиксы?
   width: 100%;
-  height: auto;
+  height: 50%;
+  margin: 0;
   font-size: 56px;
   font-weight: 700;
   line-height: normal;
   border-bottom: 0.2rem solid rgb(0, 0, 0);
 }
 
-.my_name_title {
-  // position: absolute;
-  // animation: titleBottom 1s;
-  // animation-delay: 1.75s;
-  // animation-fill-mode: forwards;
-  // height: 2.1rem;
-  // left: 0%;
-  // z-index: -1;
-  // bottom: 1rem;
-  // // content: '';
-  // background-color: #b2cce9;
+.my_name_top {
+  position: relative;
+  height: 4rem;
+  bottom: 1rem;
+}
+.my_name_top ::before {
+  content: "";
+  position: absolute;
+  background-color: #b2cce9;
+  bottom: 1rem;
+  height: 0.8rem;
+  width: 100%;
+  z-index: -1;
+}
+
+.my_name_bottom {
+  position: relative;
+  height: 4rem;
+  bottom: 1rem;
+}
+
+.my_spec {
+  width: 100%;
+  height: 50%;
+  margin: 0.5rem 0;
+}
+
+.my_spec ::before {
+  content: "";
+  position: absolute;
+  background-color: #b2cce9;
+  bottom: 1rem;
+  height: 0.8rem;
+  width: 40%;
+  z-index: -1;
+}
+
+@media (min-width: 320px) {
+  .custom_container {
+    max-width: 300px;
+  }
+}
+
+@media (min-width: 480px) {
+  .custom_container {
+    max-width: 450px;
+  }
+}
+
+@media (min-width: 575.98px) {
+  .custom_container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 767.98px) {
+  .custom_container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 991.98px) {
+  .custom_container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1199.98px) {
+  .custom_container {
+    max-width: 1140px;
+  }
 }

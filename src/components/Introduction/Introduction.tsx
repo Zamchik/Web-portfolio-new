@@ -12,10 +12,10 @@ const Introduction = () => {
                     </picture>
                     <div className={styles.top_text}>
                         <h1 className={styles.my_name}>
-                            <span className={styles.my_name_title}>Konstantin</span>
-                            <span className={styles.my_name_title}>Zamyakin</span>
+                            <span className={styles.my_name_top}>Konstantin</span>
+                            <span className={styles.my_name_bottom}>Zamyakin</span>
                         </h1>
-                        <h2>
+                        <h2 className={styles.my_spec}>
                             <span>Frontend Developer</span>
                         </h2>
                     </div>
