@@ -8,12 +8,6 @@
   border-bottom: 0.2rem solid rgb(0, 0, 0);
 }
 
-// [class*=_container] {
-//     max-width: 1380px;
-//     margin: 0 auto;
-//     padding: 0 40px;
-// }
-
 .header_container {
   min-height: 90px;
   display: -webkit-box;
@@ -30,29 +24,29 @@
   column-gap: 50px;
 }
 
-// @media (min-width: 767.98px) {
-//   .custom_container {
-//     max-width: 720px;
-//   }
-// }
+@media (min-width: 320px) {
+  .custom_container {
+    max-width: 300px;
+  }
+}
 
-// @media (min-width: 575.98px) {
-//   .custom_container {
-//     max-width: 540px;
-//   }
-// }
+@media (min-width: 480px) {
+  .custom_container {
+    max-width: 450px;
+  }
+}
 
-// @media (min-width: 480px) {
-//   .custom_container {
-//     max-width: 450px;
-//   }
-// }
+@media (min-width: 575.98px) {
+  .custom_container {
+    max-width: 540px;
+  }
+}
 
-// @media (min-width: 320px) {
-//   .custom_container {
-//     max-width: 300px;
-//   }
-// }
+@media (min-width: 767.98px) {
+  .custom_container {
+    max-width: 720px;
+  }
+}
 
 .nickname {
   padding: 0 90px;
